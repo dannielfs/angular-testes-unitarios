@@ -13,7 +13,8 @@ import {
 	ClienteEditarComponent,
 	ClienteListarComponent,
 	ClienteVisualizarComponent,
-	ClienteService
+	ClienteService,
+	ClienteIdPipe
 } from './';
 
 import { SharedModule } from '../shared';
@@ -27,7 +28,8 @@ import { SharedModule } from '../shared';
 		ClienteCadastrarComponent,
 		ClienteEditarComponent,
 		ClienteListarComponent,
-		ClienteVisualizarComponent
+		ClienteVisualizarComponent,
+		ClienteIdPipe
 	],
 	providers: [
 		ClienteService
